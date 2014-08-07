@@ -1,8 +1,12 @@
 {
-    "name": "rosio/wordpress-i18n-tools",
-    "description": "A rewrite of WordPress's I18N tools into a composer friendly format.",
+    "name": "felipelavinz/wordpress-i18n-tools",
+    "description": "A rewrite of WordPress's I18N tools into a composer friendly format; without the WordPress dependency",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Felipe Lavín Z.",
+             "homepage": "http://www.yukei.net"
+        },
         {
             "name": "Ben",
             "email": "ben@ros.io"
@@ -14,7 +18,6 @@
         }
     },
     "require": {
-        "johnpbloch/wordpress": "*"
     },
     "bin": [
         "bin/add-textdomain",
